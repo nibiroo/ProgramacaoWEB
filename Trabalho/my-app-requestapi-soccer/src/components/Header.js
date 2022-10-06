@@ -1,5 +1,5 @@
 import React from "react";
-import App from "../App";
+import {fncGETAPICampeonato, fncGETAPIArtilharia} from "./scriptsAG";
 
 const Header = ()=> {
     return (
