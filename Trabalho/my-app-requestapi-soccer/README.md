@@ -71,7 +71,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ###
 1° npm i axios
+2° npm i -D react-router-dom || ou || npm i -D react-router-dom@latest
 
+Site: https://api-futebol.com.br/
 account:
   agbusiness0192022
   S3nh4#123@
+
+###
+import React from "react";
+
+const X = ()=> {
+    return (
+        
+    );
+}
+
+export default X;

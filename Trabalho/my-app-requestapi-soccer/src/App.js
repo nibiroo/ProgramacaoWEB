@@ -1,6 +1,5 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Home from "./components/Home";
 import SideNav from "./components/SideNav";
 import Section from "./components/Section";
 
@@ -11,7 +10,6 @@ function App() {
       <Header/>
       <SideNav/>
       <Section/>
-      <Home/>
       <Footer/>
     </div>
   );
