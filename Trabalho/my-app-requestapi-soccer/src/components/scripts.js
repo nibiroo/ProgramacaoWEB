@@ -6,17 +6,16 @@ const token = "test_9d7ac31c1885497d8ec1f76522b841";
 
 /* Função para conectar-se a API */
 export const fncGETAPICampeonato = async()=> {
-  await axios({
+  const responseAPICamp = await axios({
     method: "GET",
-    url: "https://api.api-futebol.com.br/v1/campeonatos",
+    url: "https://api.api-futebol.com.br/v1/campeonatos/10",
     headers: {
       Authorization: `Bearer ${token}`
     }
-  }).then((e) => {
-    console.log("responseRequestAPI", e);
-    console.log('olá');
   })
+  return responseAPICamp;
 }
+
 /* Função para conectar-se a API */
 export const fncGETAPIArtilharia = async()=> {
   await axios({

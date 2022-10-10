@@ -1,5 +1,7 @@
 import React from "react";
 
+import {Link} from 'react-router-dom';
+
 const SideNav = ()=> {
     return (
         <div>
@@ -27,46 +29,23 @@ const SideNav = ()=> {
                 
                 {/* Sidebar Menu - Football Championship*/}
                 <nav className="mt-2">
-                <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                    {/* Add icons to the links using the .nav-icon class
-                    with font-awesome or any other icon font library */}
-                    <li className="nav-header">FOOTBAL CHAMPIONSHIP</li>
-                    <li className="nav-item">
-                    <a href="#" className="nav-link">
-                        <i className="nav-icon far fa-circle text-warning" />
-                        <p>Brazilian Championship</p>
-                    </a>
-                    </li>
-                    <li className="nav-item">
-                    <a href="#" className="nav-link">
-                        <i className="nav-icon far fa-circle text-warning" />
-                        <p>Brazil Cup</p>
-                    </a>
-                    </li>
-                </ul>
-                </nav>
-                {/* /.sidebar-menu */}
-
-                
-                {/* Sidebar Menu - Contact */}
-                <nav className="mt-2">
-                <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                    {/* Add icons to the links using the .nav-icon class
-                    with font-awesome or any other icon font library */}
-                    <li className="nav-header">FOOTBAL CHAMPIONSHIP</li>
-                    <li className="nav-item">
-                    <a href="#" className="nav-link">
-                        <i className="nav-icon far fa-circle text-warning" />
-                        <p>Brazilian Championship</p>
-                    </a>
-                    </li>
-                    <li className="nav-item">
-                    <a href="#" className="nav-link">
-                        <i className="nav-icon far fa-circle text-warning" />
-                        <p>Brazil Cup</p>
-                    </a>
-                    </li>
-                </ul>
+                    <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        {/* Add icons to the links using the .nav-icon class
+                        with font-awesome or any other icon font library */}
+                        <li className="nav-header">FOOTBAL CHAMPIONSHIP</li>
+                        <li className="nav-item">
+                        <a href="#" className="nav-link">
+                            <i className="nav-icon far fa-circle text-warning" />
+                            <a href="http://localhost:3000/brazilianChampionship" target="main-iframe">Brazilian Championship</a>
+                        </a>
+                        </li>
+                        <li className="nav-item">
+                        <a href="#" className="nav-link">
+                            <i className="nav-icon far fa-circle text-warning" />
+                            <p>Brazil Cup</p>
+                        </a>
+                        </li>
+                    </ul>
                 </nav>
                 {/* /.sidebar-menu */}
             </div>

@@ -1,18 +1,16 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import SideNav from "./components/SideNav";
-import Section from "./components/Section";
+import RoutesApp from "./routes";
+
 
 function App() {
-  /*  */
   return (
     <div>
-      <Header/>
-      <SideNav/>
-      <Section/>
-      <Footer/>
+
+      <RoutesApp />
     </div>
   );
 }
 
+
 export default App;
+
+
