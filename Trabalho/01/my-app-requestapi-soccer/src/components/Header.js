@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
 
 const Header = ()=> {
@@ -8,15 +7,12 @@ const Header = ()=> {
             {/* Navbar */}
             <nav className="main-header navbar navbar-expand navbar-white navbar-light">
                 {/* Left navbar links */}
-                <ul className="navbar-nav">
+                <ul className="navbar-nav" style={{display: "flex", alignItems: "center"}}>
                     <li className="nav-item">
                         <a className="nav-link" data-widget="pushmenu" href="#" role="button"><i className="fas fa-bars" /></a>
                     </li>
                     <li className="nav-item d-none d-sm-inline-block">
-                        <Link to="/homeFixed">Home</Link>
-                    </li>
-                    <li className="nav-item d-none d-sm-inline-block">
-                        <a href="#" className="nav-link">Contact</a>
+                        <Link to="/homeFixed">Página Inicial</Link>
                     </li>
                 </ul>
                 {/* Right navbar links */}

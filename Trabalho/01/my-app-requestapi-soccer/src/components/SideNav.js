@@ -32,18 +32,37 @@ const SideNav = ()=> {
                     <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         {/* Add icons to the links using the .nav-icon class
                         with font-awesome or any other icon font library */}
-                        <li className="nav-header">FOOTBAL CHAMPIONSHIP</li>
+                        <li className="nav-header">CAMPEONATOS DE FUTEBOL</li>
                         <li className="nav-item">
-                        <a href="#" className="nav-link">
-                            <i className="nav-icon far fa-circle text-warning" />
-                            <a href="http://localhost:3000/brazilianChampionship" target="main-iframe">Brazilian Championship</a>
-                        </a>
+                            <a className="nav-link">
+                                <i className="nav-icon far fa-circle text-warning" />
+                                <a href="http://localhost:3000/highlightsChampionship" target="main-iframe">Highlights - Liga Estrangeira</a>
+                            </a>
                         </li>
                         <li className="nav-item">
-                        <a href="#" className="nav-link">
-                            <i className="nav-icon far fa-circle text-warning" />
-                            <p>Brazil Cup</p>
-                        </a>
+                            <a href="#" className="nav-link">
+                                <i className="nav-icon far fa-circle text-warning" />
+                                <a href="http://localhost:3000/brazilianChampionship" target="main-iframe">Campeonato Brasileiro</a>
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link">
+                                <i className="nav-icon far fa-circle text-warning" />
+                                <a href="http://localhost:3000/scoreChampionship" target="main-iframe">Tabela</a>
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#" className="nav-link">
+                                <i className="nav-icon far fa-circle text-warning" />
+                                <a href="http://localhost:3000/footballersBrazilCup" target="main-iframe">Artilharia da Copa Brasil</a>
+                            </a>
+                        </li>
+                        <li className="nav-header">Account</li>
+                        <li className="nav-item">
+                            <a className="nav-link">
+                                <i className="nav-icon far fa-circle text-warning" />
+                                <a href="http://localhost:3000/myAccount" target="main-iframe">My Account</a>
+                            </a>
                         </li>
                     </ul>
                 </nav>
