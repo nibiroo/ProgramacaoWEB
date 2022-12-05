@@ -1,0 +1,14 @@
+Criar um tabela com o nom e produto
+- id
+- nome
+- preço
+- quant
+
+
+-----------------------------------
+Faça um CRUD com API na tabela produto
+
+
+Postman
+
+
